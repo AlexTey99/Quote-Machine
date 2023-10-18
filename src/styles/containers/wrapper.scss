@@ -1,0 +1,104 @@
+
+
+div {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #quote-box {
+        border-radius: 3px;
+        position: relative;
+        width: 450px;
+        padding: 40px 50px;
+        display: table;
+        background-color: #fff;
+
+        .quote-text {
+            display: block;
+            text-align: center;
+            width: 450px;
+            height: auto;
+            clear: both;
+            font-weight: 500;
+            font-size: 1.75em;
+
+            .fa {
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                transform: translate(0, 0);
+            }
+        }
+
+        .quote-author {
+            display: flex;
+            justify-content: end;
+            width: 450px;
+            height: auto;
+            clear: both;
+            padding-top: 20px;
+            font-size: 1em;
+            text-align: right;
+
+            .author-script{
+                margin-right: 5px;
+            }
+        }
+
+        .buttons {
+            width: 450px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+
+            .button {
+                height: 38px;
+                border: none;
+                border-radius: 3px;
+                color: #fff;
+                background-color: #333;
+                outline: none;
+                font-size: 0.85em;
+                padding: 8px 18px 6px 18px;
+                margin-top: 30px;
+                margin-right: 5px;
+                opacity: 1;
+                cursor: pointer;
+
+                .button#tumblr-quote {
+                    float: left;
+                    padding: 0px;
+                    padding-top: 8px;
+                    text-align: center;
+                    font-size: 1.2em;
+                    margin-right: 5px;
+                    height: 30px;
+                    width: 40px;
+                }
+            }
+        }
+
+
+    }
+
+    .footer {
+        width: 450px;
+        text-align: center;
+        display: block;
+        margin: 15px auto 30px auto;
+        font-size: 0.8em;
+        color: #fff;
+
+        a:-webkit-any-link {
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+}
